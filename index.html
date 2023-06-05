@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var y;
+    x = parseInt(prompt('Введіть х'));
+    with (Math){
+        if (x<2){
+            y = pow(cos(x),2);
+        }
+        if (x==2){
+            y = tan(x)+ pow(x,3.7);
+        }
+        if (x>2){
+            y = abs(1-pow(x,2));
+        }
+    }
+    alert(y);
+
+</script>
+</body>
+</html>
